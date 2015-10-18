@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:padding="5dp"
+    android:background="#8392"
+>
+
+    <TextView
+        android:id="@+id/course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="12dp"
+        android:text="No.1"
+        android:layout_alignBottom="@+id/myimage"
+        android:layout_alignTop="@+id/myimage" />
+    <ImageView
+        android:id="@+id/myimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shujuku"
+        android:layout_toRightOf="@+id/course"
+       android:adjustViewBounds="true"
+        android:maxHeight="70dp"
+        android:maxWidth="60dp"/>
+    <TextView
+        android:id="@+id/mytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_toRightOf="@+id/myimage"
+        android:text="book"
+        android:textColor="#ff6969"
+        android:layout_alignBottom="@+id/myimage"
+        android:layout_alignTop="@+id/myimage" />
+    <ImageButton
+        android:layout_alignParentRight="true"
+        android:id="@+id/MoD"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:focusable="false"
+       android:background="@drawable/delete"
+       android:gravity="center|center_vertical"
+
+        />
+</RelativeLayout>

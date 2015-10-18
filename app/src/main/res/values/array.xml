@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="books">
+        <item>数据库</item>
+        <item>数据结构</item>
+        <item>离散数学</item>
+        <item>线性代数</item>
+        <item>概率论</item>
+        <item>健美操</item>
+        <item>选修课</item>
+    </string-array>
+</resources>
